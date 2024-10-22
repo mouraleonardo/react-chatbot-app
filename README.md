@@ -28,7 +28,7 @@ To set up the Chatbot React App locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/mouraleonardo/react-chatbot-app.git>
    cd chatbot-react-app
    ```
 
@@ -69,11 +69,12 @@ src/
 └── .gitignore
 ```
 
-- **components/Chatbot.js**: Contains the main functionality and UI for the chatbot.
+- **src/components/Chatbot.js**: Contains the main functionality and UI for the chatbot.
 - **index.js**: The entry point for the React application.
 - **App.js**: The main app component.
 - **index.css**: Global styles for the app.
 - **tailwind.config.js**: Configuration file for Tailwind CSS.
+- **postcss.config.js**: Configuration file for PostCSS.
 
 ## License
 
@@ -90,11 +91,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contribution
 
 Feel free to contribute to this project! Open issues or submit pull requests for any improvements or bug fixes.
-
-```
-
-### Instructions for Use
-1. **Replace `<repository-url>`** in the installation section with the actual URL of your repository.
-2. **Update any details** if necessary to reflect changes in your app or structure. 
-
-This README provides a clear overview and detailed instructions for users and developers interested in your project.
